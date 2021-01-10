@@ -29,7 +29,7 @@ sources = {
     ("bbctürkçe","economy"): "http://www.bbc.co.uk/turkce/ekonomi/index.xml",
     ("milliyet","general"): "https://www.milliyet.com.tr/rss/rssNew/SonDakikaRss.xml",
     ("milliyet","economy"): "https://www.milliyet.com.tr/rss/rssNew/ekonomiRss.xml",
-    ("milliyet","magazine"): "https://www.milliyet.com.tr/rss/rssNew/magazinRss.xml"
+    ("milliyet","magazine"): "https://www.milliyet.com.tr/rss/rssNew/magazinRss.xml",
     ("sözcü","general"): "https://www.sozcu.com.tr/rss",
     ("sputniknews","general"): "https://tr.sputniknews.com/export/rss2/archive/index.xml",
     ("beinsports","sport"): "https://tr.beinsports.com/rss/ana-sayfa"

@@ -20,13 +20,25 @@ In this version, only Turkish news sources are available. These are:
 
 When the system is started, latest news is received with a thread running in parallel and saved to the file.
 
+---
 ## Installation
 In order to `clone` the complete content of this folder use the command:
 
 ```git
-git clone git@github.com:redrussianarmy/paragraph-shortener.git
+git clone git@github.com:redrussianarmy/latest-news-gatherer.git
+```
+Create virtual environment:
+```bash
+cd latest-news-gatherer/
+pipenv install -r requirements.txt 
+pipenv shell
+```
+Try if it works:
+```
+python3 get_news.py
 ```
 
+---
 ## Usage
 ```
 root  
@@ -53,4 +65,17 @@ while True:
     print(q2.get())
 ```
 
-When the source and category are entered as an input to the queue, the result is:
+Enter the source and category respectively as the following:
+
+1. Input 1: **cnntürk**
+2. Press Enter
+3. Input 2: **ekonomi**
+4. Press Enter
+5. See the gathered latest news of given source and category.
+
+---
+**NOTE**
+
+The character limit for the news received is set at 250. You can increase or decrease this by changing the `char_limit` variable in the `get_news.py` file.
+
+---
