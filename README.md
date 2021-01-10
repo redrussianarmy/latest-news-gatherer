@@ -37,6 +37,13 @@ Try if it works:
 ```
 python3 get_news.py
 ```
+Enter the source and category respectively as the following:
+
+1. Input 1: **cnntürk**
+2. Press Enter
+3. Input 2: **economy**
+4. Press Enter
+5. See the gathered latest news of given source and category.
 
 ---
 ## Usage
@@ -64,14 +71,6 @@ while True:
     q1.put({"source":input(), "category":input()})
     print(q2.get())
 ```
-
-Enter the source and category respectively as the following:
-
-1. Input 1: **cnntürk**
-2. Press Enter
-3. Input 2: **economy**
-4. Press Enter
-5. See the gathered latest news of given source and category.
 
 ---
 **NOTE**
