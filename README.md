@@ -69,7 +69,7 @@ Enter the source and category respectively as the following:
 
 1. Input 1: **cnntürk**
 2. Press Enter
-3. Input 2: **ekonomi**
+3. Input 2: **economy**
 4. Press Enter
 5. See the gathered latest news of given source and category.
 
