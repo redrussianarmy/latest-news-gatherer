@@ -20,8 +20,6 @@ In this version, only Turkish news sources are available. These are:
 
 When the system is started, latest news is received with a thread running in parallel and saved to the file.
 
-![news](https://user-images.githubusercontent.com/24498747/226103688-6b0b54bb-92a2-4df1-a9ec-c6629e23d248.png)
-
 ---
 ## Installation
 In order to `clone` the complete content of this folder use the command:
@@ -46,6 +44,8 @@ Enter the source and category respectively as the following:
 3. Input 2: **economy**
 4. Press Enter
 5. See the gathered latest news of given source and category.
+
+![news](https://user-images.githubusercontent.com/24498747/226103688-6b0b54bb-92a2-4df1-a9ec-c6629e23d248.png)
 
 ---
 ## Usage
